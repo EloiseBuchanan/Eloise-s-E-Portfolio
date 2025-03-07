@@ -28,6 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12px;
 }
 
 .nav__link--list {
@@ -48,6 +49,20 @@ nav {
     color: white;
 }
 
+.nav__link--anchor-primary:hover {
+    background-color: rgb(175, 15, 30);
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: rgb(175, 20, 50);
+    margin: 0 12px;
+    font-weight: bold;
+}
+
 li {
     list-style: none;
 }
+
+/* ABOUT ME */
+
