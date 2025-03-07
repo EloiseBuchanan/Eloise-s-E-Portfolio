@@ -26,7 +26,7 @@ nav {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,3 +41,13 @@ nav {
     font-weight: 700;
 }
 
+.nav__link--anchor-pimary {
+    background-color: rgb(175, 20, 50);
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
