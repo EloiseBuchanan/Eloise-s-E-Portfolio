@@ -35,6 +35,10 @@ li {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -44,6 +48,14 @@ li {
 
 .text--red {
     color: rgb(175, 20, 50);
+}
+
+section:nth-child(even) {
+    background-color: rgb(228, 227, 227);
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR */
@@ -155,3 +167,35 @@ nav {
 }
 
 
+/* Tech Stack */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img-1 {
+    width: 100%;
+    max-width: 75px;
+}
+
+.language {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.language__list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
