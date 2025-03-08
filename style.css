@@ -108,12 +108,13 @@ nav {
 
 .nav__link--list {
     display: flex;
+    gap: 6px;
 }
 
 .nav__link--anchor {
-    margin: 0 12px;
     color: #242424;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .nav__link--anchor-primary {
